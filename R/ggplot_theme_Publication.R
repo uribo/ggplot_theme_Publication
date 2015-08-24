@@ -1,3 +1,8 @@
+## ----  --------------------------------------------------------------------
+# 'ggplot_theme_Publication' by Koundinya Desiraju (https://github.com/koundy/ggplot_theme_Publication)
+## ----  --------------------------------------------------------------------
+library(grid)
+library(ggthemes)
 
 theme_Publication <- function(base_size = 14, base_family = "Helvetica") {
   (ggthemes::theme_foundation(base_size   = base_size, 
